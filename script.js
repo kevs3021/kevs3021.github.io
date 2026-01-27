@@ -240,10 +240,9 @@ contactForm.addEventListener('submit', function(e) {
         formSuccess.classList.remove('show');
     }, 3000);
     
-    /* 
-    // UNCOMMENT THIS FOR ACTUAL FORM SUBMISSION
-    // Replace with your actual endpoint
-    fetch('your-backend-endpoint.php', {
+
+
+    fetch('https://formspree.io/f/meegnpwe', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
@@ -265,7 +264,6 @@ contactForm.addEventListener('submit', function(e) {
         console.error('Error:', error);
         alert('There was an error sending your message. Please try again.');
     });
-    */
 });
 
 // Form validation
