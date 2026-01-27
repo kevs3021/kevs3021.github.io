@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kevin Christopher C. Gallego - Computer Engineering Student | Portfolio showcasing RFID projects, web development, and technical skills">
+    <meta name="keywords" content="Computer Engineering, Arduino, RFID, PHP, Web Development, Portfolio">
+    <meta name="author" content="Kevin Christopher C. Gallego">
+    
+    <title>Kevin Gallego | Computer Engineering Student</title>
+    
+    <!-- Favicon - PLACEHOLDER: Add your own favicon.ico -->
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo">
+                <span class="logo-bracket">&lt;</span>
+                <span class="logo-text">KG</span>
+                <span class="logo-bracket">/&gt;</span>
+            </a>
+            
+            <div class="nav-links" id="navLinks">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#certifications" class="nav-link">Certifications</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="grid-overlay"></div>
+            <div class="particles" id="particles"></div>
+        </div>
+        
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="greeting">
+                        <span class="code-bracket">&lt;</span>Hello World
+                        <span class="code-bracket">/&gt;</span>
+                    </div>
+                    <h1 class="hero-title">
+                        I'm <span class="highlight">Kevin Christopher</span>
+                        <br>
+                        <span class="typed-text"></span><span class="cursor">|</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        Computer Engineering Student | Full-Stack Developer | Hardware Enthusiast
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            <i class="fas fa-code"></i> View My Work
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <i class="fas fa-envelope"></i> Get In Touch
+                        </a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/kevs3021" target="_blank" class="social-link" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/kevin-christopher-gallego-119475330" target="_blank" class="social-link" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="mailto:kevin.gallego1024@gmail.com" class="social-link" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="tel:+639668634543" class="social-link" aria-label="Phone">
+                            <i class="fas fa-phone"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="hero-image">
+                    <!-- PLACEHOLDER: Replace 'profile-photo.jpg' with your actual photo -->
+                    <div class="image-container">
+                        <img src="images/profile-photo.jpg" alt="Kevin Christopher C. Gallego" class="profile-img">
+                        <div class="image-glow"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="scroll-indicator">
+                <a href="#about" aria-label="Scroll down">
+                    <div class="mouse">
+                        <div class="wheel"></div>
+                    </div>
+                    <p>Scroll Down</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">&lt;about&gt;</span>
+                <h2 class="section-title">About Me</h2>
+                <div class="title-underline"></div>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-image">
+                    <!-- PLACEHOLDER: You can use the same profile photo or a different one -->
+                    <img src="images/about-photo.jpg" alt="Kevin Gallego working">
+                    <div class="about-stats">
+                        <div class="stat">
+                            <i class="fas fa-project-diagram"></i>
+                            <h3>5+</h3>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="stat">
+                            <i class="fas fa-certificate"></i>
+                            <h3>4</h3>
+                            <p>Certifications</p>
+                        </div>
+                        <div class="stat">
+                            <i class="fas fa-code"></i>
+                            <h3>9</h3>
+                            <p>Technologies</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-text">
+                    <h3>Computer Engineering Student & Aspiring Developer</h3>
+                    <p>
+                        I'm a motivated Computer Engineering undergraduate at <strong>Rizal Technological University</strong> 
+                        with a strong foundation in problem-solving and technical analysis. My passion lies in 
+                        bridging the gap between hardware and software through innovative solutions.
+                    </p>
+                    <p>
+                        Currently seeking entry-level opportunities in <strong>Computer Engineering</strong> or 
+                        <strong>IT-related fields</strong> where I can apply my engineering principles, develop 
+                        cutting-edge solutions, and contribute to organizational success.
+                    </p>
+                    <p>
+                        With hands-on experience in <strong>embedded systems</strong>, <strong>full-stack web development</strong>, 
+                        and <strong>customer service</strong>, I bring a unique blend of technical expertise and 
+                        communication skills to any team.
+                    </p>
+                    
+                    <div class="quick-info">
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Taytay, Rizal, Philippines</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>BS Computer Engineering</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-briefcase"></i>
+                            <span>Open to Opportunities</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-language"></i>
+                            <span>C2 English Proficiency</span>
+                        </div>
+                    </div>
+                    
+                    <a href="resume/Kevin_Gallego_Resume.pdf" class="btn btn-primary" download>
+                        <i class="fas fa-download"></i> Download Resume
+                    </a>
+                </div>
+            </div>
+            
+            <span class="section-tag closing-tag">&lt;/about&gt;</span>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">&lt;skills&gt;</span>
+                <h2 class="section-title">Technical Arsenal</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle">Technologies I'm familiar with and continuously learning</p>
+            </div>
+            
+            <div class="skills-grid">
+                <!-- Programming Languages -->
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-code"></i>
+                        <h3>Programming Languages</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js"></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-java"></i>
+                            <span>Java</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-copyright"></i>
+                            <span>C++</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-hashtag"></i>
+                            <span>C#</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-moon"></i>
+                            <span>Lua</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>MySQL</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Tools & Technologies -->
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-tools"></i>
+                        <h3>Tools & Technologies</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <i class="fab fa-git-alt"></i>
+                            <span>Git & GitHub</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-bootstrap"></i>
+                            <span>Bootstrap</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-php"></i>
+                            <span>PHP</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-microchip"></i>
+                            <span>Arduino</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-google"></i>
+                            <span>Google Workspace</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-server"></i>
+                            <span>XAMPP</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-headset"></i>
+                            <span>Zendesk CRM</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-keyboard"></i>
+                            <span>83 WPM Typing</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Soft Skills -->
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-brain"></i>
+                        <h3>Soft Skills</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <i class="fas fa-lightbulb"></i>
+                            <span>Problem-Solving</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-sync-alt"></i>
+                            <span>Adaptability</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-dumbbell"></i>
+                            <span>Hardworking</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-tasks"></i>
+                            <span>Multitasking</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-users"></i>
+                            <span>Team Collaboration</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-comments"></i>
+                            <span>Communication</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <span class="section-tag closing-tag">&lt;/skills&gt;</span>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">&lt;projects&gt;</span>
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle">Showcasing my hands-on experience in hardware and software development</p>
+            </div>
+            
+            <div class="projects-grid">
+                <!-- Project 1: RFID Tollgate -->
+                <div class="project-card featured">
+                    <div class="project-header">
+                        <span class="project-badge">Featured</span>
+                        <div class="project-links">
+                            <a href="https://github.com/kevs3021/RFID-Tollgate-System" target="_blank" class="project-link" aria-label="View Code">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <!-- PLACEHOLDER: Add live demo link if you deploy it -->
+                            <!-- <a href="#" target="_blank" class="project-link" aria-label="Live Demo">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a> -->
+                        </div>
+                    </div>
+                    
+                    <!-- PLACEHOLDER: Replace with actual project screenshot -->
+                    <div class="project-image">
+                        <img src="images/rfid-project.jpg" alt="RFID Tollgate System">
+                        <div class="project-overlay">
+                            <a href="https://github.com/kevs3021/RFID-Tollgate-System" target="_blank" class="overlay-btn">
+                                <i class="fas fa-eye"></i> View Project
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="project-content">
+                        <h3>PrimeGate RFID Toll Gate System</h3>
+                        <p>
+                            Automated toll collection system integrating Arduino-controlled RFID scanning with 
+                            a full-stack web application. Features admin dashboard, user portal, real-time 
+                            transaction processing, and hardware control.
+                        </p>
+                        
+                        <div class="project-tech">
+                            <span class="tech-tag">Arduino</span>
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">Bootstrap</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">RFID</span>
+                        </div>
+                        
+                        <div class="project-stats">
+                            <div class="stat-item">
+                                <i class="fas fa-star"></i>
+                                <span>Academic Project</span>
+                            </div>
+                            <div class="stat-item">
+                                <i class="fas fa-calendar"></i>
+                                <span>2024-2025</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project Placeholder 2 -->
+                <!-- PLACEHOLDER: Add more projects as you complete them -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <span class="project-badge coming-soon">Coming Soon</span>
+                    </div>
+                    
+                    <div class="project-image placeholder">
+                        <div class="placeholder-content">
+                            <i class="fas fa-code fa-3x"></i>
+                            <p>Next Project in Development</p>
+                        </div>
+                    </div>
+                    
+                    <div class="project-content">
+                        <h3>Future Project #2</h3>
+                        <p>
+                            Currently working on new projects to expand my portfolio. 
+                            Stay tuned for updates!
+                        </p>
+                        
+                        <div class="project-tech">
+                            <span class="tech-tag">TBD</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project Placeholder 3 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <span class="project-badge coming-soon">Coming Soon</span>
+                    </div>
+                    
+                    <div class="project-image placeholder">
+                        <div class="placeholder-content">
+                            <i class="fas fa-laptop-code fa-3x"></i>
+                            <p>More Projects Coming</p>
+                        </div>
+                    </div>
+                    
+                    <div class="project-content">
+                        <h3>Future Project #3</h3>
+                        <p>
+                            Building more exciting projects to demonstrate my skills 
+                            in various technologies.
+                        </p>
+                        
+                        <div class="project-tech">
+                            <span class="tech-tag">TBD</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="projects-cta">
+                <p>Want to see more of my work?</p>
+                <a href="https://github.com/kevs3021" target="_blank" class="btn btn-primary">
+                    <i class="fab fa-github"></i> View All Projects on GitHub
+                </a>
+            </div>
+            
+            <span class="section-tag closing-tag">&lt;/projects&gt;</span>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">&lt;experience&gt;</span>
+                <h2 class="section-title">Work Experience</h2>
+                <div class="title-underline"></div>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">
+                        <i class="fas fa-calendar-alt"></i>
+                        <span>June 2025 - Feb 2026</span>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="experience-header">
+                            <h3>Customer Service Representative</h3>
+                            <h4>Masterpiece Group Inc.</h4>
+                        </div>
+                        <ul class="experience-list">
+                            <li>
+                                <i class="fas fa-check-circle"></i>
+                                Provided customer inquiry and warranty support through phone, email, and live chat, 
+                                ensuring timely and accurate resolution of issues
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i>
+                                Troubleshot tool-related concerns, diagnosed technical issues, and assisted 
+                                customers with ordering service and replacement parts
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i>
+                                Guided customers in locating authorized service centers and transferred inquiries 
+                                to appropriate departments such as B2B support
+                            </li>
+                        </ul>
+                        <div class="experience-skills">
+                            <span class="skill-badge">Zendesk</span>
+                            <span class="skill-badge">Customer Support</span>
+                            <span class="skill-badge">Technical Troubleshooting</span>
+                            <span class="skill-badge">Communication</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">
+                        <i class="fas fa-calendar-alt"></i>
+                        <span>Aug 2023 - Nov 2024</span>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="experience-header">
+                            <h3>Customer Service Representative</h3>
+                            <h4>Masterpiece Group Inc.</h4>
+                        </div>
+                        <ul class="experience-list">
+                            <li>
+                                <i class="fas fa-check-circle"></i>
+                                Managed high-volume customer inquiries while maintaining quality service standards
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i>
+                                Utilized SaaS-CRM systems (Zendesk) for efficient ticket management and tracking
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i>
+                                Developed strong problem-solving skills through technical issue resolution
+                            </li>
+                        </ul>
+                        <div class="experience-skills">
+                            <span class="skill-badge">CRM Systems</span>
+                            <span class="skill-badge">Problem-Solving</span>
+                            <span class="skill-badge">Multitasking</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <span class="section-tag closing-tag">&lt;/experience&gt;</span>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">&lt;certifications&gt;</span>
+                <h2 class="section-title">Certifications & Education</h2>
+                <div class="title-underline"></div>
+            </div>
+            
+            <div class="education-section">
+                <h3 class="subsection-title">
+                    <i class="fas fa-graduation-cap"></i> Education
+                </h3>
+                <div class="education-grid">
+                    <div class="education-card">
+                        <div class="edu-icon">
+                            <i class="fas fa-university"></i>
+                        </div>
+                        <h4>Bachelor of Science in Computer Engineering</h4>
+                        <p class="edu-school">Rizal Technological University</p>
+                        <p class="edu-date">Present</p>
+                        <div class="edu-status">
+                            <span class="status-badge current">Currently Enrolled</span>
+                        </div>
+                    </div>
+                    
+                    <div class="education-card">
+                        <div class="edu-icon">
+                            <i class="fas fa-school"></i>
+                        </div>
+                        <h4>Science, Technology, Engineering, and Mathematics</h4>
+                        <p class="edu-school">Arellano University Pasig</p>
+                        <p class="edu-date">Batch 2021 - 2022</p>
+                        <div class="edu-status">
+                            <span class="status-badge completed">Completed</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="certifications-section">
+                <h3 class="subsection-title">
+                    <i class="fas fa-certificate"></i> Professional Certifications
+                </h3>
+                <div class="certs-grid">
+                    <div class="cert-card">
+                        <div class="cert-icon">
+                            <i class="fab fa-microsoft"></i>
+                        </div>
+                        <h4>Foundational C# with Microsoft</h4>
+                        <p class="cert-issuer">freeCodeCamp & Microsoft</p>
+                        <p class="cert-date">2026</p>
+                        <div class="cert-badge">
+                            <i class="fas fa-check-circle"></i> Verified
+                        </div>
+                    </div>
+                    
+                    <div class="cert-card">
+                        <div class="cert-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h4>Responsive Web Design</h4>
+                        <p class="cert-issuer">freeCodeCamp</p>
+                        <p class="cert-date">2026</p>
+                        <div class="cert-badge">
+                            <i class="fas fa-check-circle"></i> Verified
+                        </div>
+                    </div>
+                    
+                    <div class="cert-card">
+                        <div class="cert-icon">
+                            <i class="fas fa-language"></i>
+                        </div>
+                        <h4>EF SET English Certificate</h4>
+                        <p class="cert-issuer">EF SET</p>
+                        <p class="cert-date">2025</p>
+                        <div class="cert-badge proficiency">
+                            <i class="fas fa-star"></i> C2 Proficiency
+                        </div>
+                    </div>
+                    
+                    <div class="cert-card">
+                        <div class="cert-icon">
+                            <i class="fas fa-keyboard"></i>
+                        </div>
+                        <h4>Typing Certification</h4>
+                        <p class="cert-issuer">TypingTest.com</p>
+                        <p class="cert-date">2024</p>
+                        <div class="cert-badge speed">
+                            <i class="fas fa-tachometer-alt"></i> 83 WPM
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <span class="section-tag closing-tag">&lt;/certifications&gt;</span>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">&lt;contact&gt;</span>
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle">Feel free to reach out for opportunities, collaborations, or just to say hello!</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-intro">
+                        <h3>Let's Connect!</h3>
+                        <p>
+                            I'm currently seeking <strong>OJT/Internship opportunities</strong> in 
+                            Computer Engineering or IT-related fields. Whether you have a project in mind, 
+                            want to discuss opportunities, or just want to connect, I'd love to hear from you!
+                        </p>
+                    </div>
+                    
+                    <div class="contact-methods">
+                        <a href="mailto:kevin.gallego1024@gmail.com" class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="method-details">
+                                <h4>Email</h4>
+                                <p>kevin.gallego1024@gmail.com</p>
+                            </div>
+                        </a>
+                        
+                        <a href="tel:+639668634543" class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="method-details">
+                                <h4>Phone</h4>
+                                <p>+63-966-863-4543</p>
+                            </div>
+                        </a>
+                        
+                        <a href="https://linkedin.com/in/kevin-christopher-gallego-119475330" target="_blank" class="contact-method">
+                            <div class="method-icon">
+                                <i class="fab fa-linkedin"></i>
+                            </div>
+                            <div class="method-details">
+                                <h4>LinkedIn</h4>
+                                <p>Kevin Christopher Gallego</p>
+                            </div>
+                        </a>
+                        
+                        <a href="https://github.com/kevs3021" target="_blank" class="contact-method">
+                            <div class="method-icon">
+                                <i class="fab fa-github"></i>
+                            </div>
+                            <div class="method-details">
+                                <h4>GitHub</h4>
+                                <p>@kevs3021</p>
+                            </div>
+                        </a>
+                        
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="method-details">
+                                <h4>Location</h4>
+                                <p>Taytay, Rizal, Philippines</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="availability">
+                        <div class="status-indicator">
+                            <span class="status-dot"></span>
+                            <span class="status-text">Available for opportunities</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">
+                                <i class="fas fa-user"></i> Your Name
+                            </label>
+                            <input type="text" id="name" name="name" required placeholder="John Doe">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">
+                                <i class="fas fa-envelope"></i> Your Email
+                            </label>
+                            <input type="email" id="email" name="email" required placeholder="john@example.com">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">
+                                <i class="fas fa-tag"></i> Subject
+                            </label>
+                            <input type="text" id="subject" name="subject" required placeholder="Project Inquiry">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">
+                                <i class="fas fa-comment-dots"></i> Message
+                            </label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Tell me about your project or opportunity..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-submit">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                    
+                    <div class="form-success" id="formSuccess">
+                        <i class="fas fa-check-circle"></i>
+                        <p>Message sent successfully! I'll get back to you soon.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <span class="section-tag closing-tag">&lt;/contact&gt;</span>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <span class="logo-bracket">&lt;</span>
+                        <span class="logo-text">KG</span>
+                        <span class="logo-bracket">/&gt;</span>
+                    </div>
+                    <p>Building the future, one line of code at a time.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                
+                <div class="footer-social">
+                    <h4>Connect With Me</h4>
+                    <div class="social-icons">
+                        <a href="https://github.com/kevs3021" target="_blank" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/kevin-christopher-gallego-119475330" target="_blank" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="mailto:kevin.gallego1024@gmail.com" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="tel:+639668634543" aria-label="Phone">
+                            <i class="fas fa-phone"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Kevin Christopher C. Gallego. All rights reserved.</p>
+                <p class="made-with">
+                    Made with <i class="fas fa-heart"></i> and <i class="fas fa-coffee"></i>
+                </p>
+            </div>
+        </div>
+        
+        <!-- Back to Top Button -->
+        <button class="back-to-top" id="backToTop" aria-label="Back to top">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+    </footer>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
