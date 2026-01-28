@@ -1720,6 +1720,25 @@ section {
     transform: translateY(-5px);
 }
 
+.project-collaboration {
+    padding: 0.75rem;
+    background: rgba(0, 243, 255, 0.05);
+    border-left: 3px solid var(--primary-color);
+    border-radius: 5px;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    margin-bottom: 1rem;
+}
+
+.project-collaboration i {
+    color: var(--primary-color);
+    margin-right: 0.5rem;
+}
+
+.project-collaboration strong {
+    color: var(--primary-light);
+}
+
 /* ========================================
    RESPONSIVE DESIGN
    ======================================== */
